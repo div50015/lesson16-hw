@@ -2,6 +2,8 @@
 Параметризуйте фикстуру несколькими вариантами размеров окна
 Пропустите мобильный тест, если соотношение сторон десктопное (и наоборот)
 """
+
+
 import pytest
 from selene.support.shared import browser as browser_web
 from selene import have
